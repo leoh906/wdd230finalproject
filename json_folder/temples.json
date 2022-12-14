@@ -1,0 +1,68 @@
+{
+    "temples": [
+        {
+            "name":"Mesa Arizona Temple",
+            "picture":"mesa_temple_picture.jpg",
+            "address":"101 S. LeSueur Mesa,AZ 85204",
+            "telephone":"(480)-833-1211",
+            "email":"",
+            "services":"",
+            "history":"",
+            "ordinances":"",
+            "sessions":"",
+            "closures":"",
+            "temple_page":""
+        },
+        {
+            "name":"Meridian Idaho Temple",
+            "picture":"meridian_temple.jpg",
+            "address":"",
+            "telephone":"",
+            "email":"",
+            "services":"",
+            "history":"",
+            "ordinances":"",
+            "sessions":"",
+            "closures":"",
+            "temple_page":""
+        },
+        {
+            "name":"San Diego Temple",
+            "picture":"san_diego_temple.jpg",
+            "address":"",
+            "telephone":"",
+            "email":"",
+            "services":"",
+            "history":"",
+            "ordinances":"",
+            "sessions":"",
+            "closures":"",
+            "temple_page_link":""
+        },
+        {
+            "name":"Fresno California Temple",
+            "picture":"fresno_temple.jpg",
+            "address":"6290 N. Valentine Ave Fresno,CA 93711 United States",
+            "telephone":"+1 559-437-9451",
+            "email":"",
+            "services": {
+            "clothing_rental":"No clothing rental available",
+            "cafeteria":"No cafeteria available",
+            "patron_housing":"No patron housing available",
+            "distribution_center":"No distribution center nearby"
+        },
+            "history":"",
+            "ordinances":"",
+            "sessions":"",
+            "closures": {
+                "april_date":"Saturday, 1 April 2023",
+                "may_date":"Monday,1 May 2023-Monday,15 May 2023",
+                "july_date":"Saturday,30 September 2023",
+                "november_date":"Thursday, 23 November 2023"
+            },
+            "temple_page_link":"https://www.churchofjesuschrist.org/temples/details/fresno-california-temple?lang=eng"
+    }
+
+    
+    ]
+}
