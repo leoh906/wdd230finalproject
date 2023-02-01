@@ -5,74 +5,48 @@
             "picture":"mesa_temple_picture.jpg",
             "address":"101 S. LeSueur Mesa,AZ 85204",
             "telephone":"(480)-833-1211",
-            "email":"",
             "services":{
-                "Clothing Rental":"",
-                "Cafeteria":"",
-                "Patron Housing":""
+                "clothing_rental":"Yes",
+                "cafeteria":"No",
+                "patron_housing":"No"
             },
-            "history":"",
-            "ordinances":"",
-            "sessions":"",
-            "closures":"",
-            "temple_page":""
+            "temple_page":"https://www.churchofjesuschrist.org/temples/details/mesa-arizona-temple?lang=eng"
         },
         {
             "name":"Meridian Idaho Temple",
             "picture":"meridian_temple.jpg",
-            "address":"",
-            "telephone":"",
-            "email":"",
+            "address":"7355 N. Linder Rd. Meridian,ID 83646",
+            "telephone":"(208)-957-7300",
             "services":{
-                "Clothing Rental:"",
-                "Cafeteria":"",
-                "Patron Housing":"",
+                "clothing_rental":"No",
+                "cafeteria":"No",
+                "patron_housing":"No"
             },
-            "history":"",
-            "ordinances":"",
-            "sessions":"",
-            "closures":"",
-            "temple_page":""
+            "temple_page":"https://www.churchofjesuschrist.org/temples/details/meridian-idaho-temple?lang=eng"
         },
         {
             "name":"San Diego Temple",
             "picture":"san_diego_temple.jpg",
-            "address":"",
-            "telephone":"",
-            "email":"",
+            "address":"7474 Charmant Dr. Sand Diego,CA 92122-5000",
+            "telephone":"(858)-622-0991",
             "services":{
-                "Clothing Rental":"No",
-                "Cafeteria":"No",
-                "Patron Housing":"No"
+                "clothing_rental":"Yes",
+                "cafeteria":"No",
+                "patron_housing":"No"
             },
-            "history":"",
-            "ordinances":"",
-            "sessions":"",
-            "closures":"",
-            "temple_page_link":""
+            "temple_page":"https://www.churchofjesuschrist.org/temples/details/san-diego-california-temple?lang=eng"
         },
         {
             "name":"Fresno California Temple",
             "picture":"fresno_temple.jpg",
             "address":"6290 N. Valentine Ave Fresno,CA 93711 United States",
-            "telephone":"+1 559-437-9451",
-            "email":"",
+            "telephone":"(559)-437-9451",
             "services": {
-            "Clothing":"No clothing rental available",
-            "cafeteria":"No cafeteria available",
-            "patron_housing":"No patron housing available",
-            "distribution_center":"No distribution center nearby"
+                "clothing_rental":"No",
+                "cafeteria":"No",
+                "patron_housing":"No"
         },
-            "history":"",
-            "ordinances":"",
-            "sessions":"",
-            "closures": {
-                "april_date":"Saturday, 1 April 2023",
-                "may_date":"Monday,1 May 2023-Monday,15 May 2023",
-                "july_date":"Saturday,30 September 2023",
-                "november_date":"Thursday, 23 November 2023"
-            },
-            "temple_page_link":"https://www.churchofjesuschrist.org/temples/details/fresno-california-temple?lang=eng"
+            "temple_page":"https://www.churchofjesuschrist.org/temples/details/fresno-california-temple?lang=eng"
     }
 
     

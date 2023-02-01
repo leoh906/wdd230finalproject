@@ -1,36 +1,125 @@
 @media screen and (max-width: 768px){
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
     
-    #index_header {
-        background-color: antiquewhite;
-        padding: 0px;
-        margin: 0px;
+    /* Styling for the index.html page */
+    .website_header {
+        height: 5rem;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: antiquewhite;
     }
 
-    #index_header img {
-        height: 100px;
-        width: 100px;
+    .website_header .social_media_icon {
+        height: 2.5rem;
+        width: auto;
     }
-
 
     #hamburger_button {
-    display: block;
-    background-color: black;
-    border-color: black;
-    display: hidden;
-    height: 100px;
-    width: 100px;
+        display: flex;
+        align-self: flex-end;
+        flex-direction: column;
+        justify-content:space-around;
+        background-color: black;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .hamburger_element {
+        background-color: white;
+        height: 5px;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 2.5px;
+        
+    }
+
+    .index_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: black;
+        margin: 0px;
+        padding: 10px;
+
+        /* align-items: center; */
+        gap: 1rem;
+    }
+
+
+    .index_menu a {
+        text-decoration: none;
+    }
+
+    .index_menu a:visited {
+        text-decoration: none;
+    }
+
+    #index_main_content {
+        display: grid;
+    }
+
+    #index_temple_information {
+        /* grid-row: 1/1; */
+        text-align: center;
+    }
+
+    #index_hotel_card {
+        /* grid-row: 3/3; */
+        text-align: center;
+    }
+
+    .index_menu li {
+        list-style: none;
+    }
+
+    #index_main_card {
+        grid-row: 2/2;
+        text-align: center;
+    }
+
+    #random_family_image {
+        height: 100px;
+        width: auto;
+    }
+
+    #index_hotel_card img {
+        height: 100px;
+        width: auto;
+    }
+
+    #mesa_temple_image {
+        height: 2.5rem;
+        width: auto;
+    }
+.website_footer {
+    background-color: aliceblue;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    
 }
 
-.hamburger_element {
-    background-color: white;
-    height: 25px;
-    width: 10px;
-    border-radius: 25px;
-    padding: 2px;
-    margin: 2px;
-} 
+#weather_footer {
+    text-align: center;
+}
+  
+/*Styling for the Reservation Page */
+.form_element {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    padding: 1rem;
+}
+
+
     
 } /*Ending bracket for the media query
 
