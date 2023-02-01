@@ -16,21 +16,69 @@ async function getTemples(jsonURL) {
             let mainHeading = document.getElementById('temple_body')
             let container = document.createElement('div')
             mainHeading.appendChild(container)
+            container.setAttribute('id','temples_container')
             
+            let templeHeader = document.createElement('h2')
             let templeImage =document.createElement('img')
-            let firstText = document.createElement('p')
-            let secondText = document.createElement('p')
-            let thirdText = document.createElement('p')
-            let firstButton = document.createElement('button')
-            let secondButton = document.createElement('button')
-            let thirdButton = document.createElement('button')
+            let addressHeader = document.createElement('h3')
+            let contactHeader = document.createElement('h3')
+            let servicesHeader = document.createElement('h3')
+            let servicesBox = document.createElement('div')
+            let addressText = document.createElement('p')
+            let contactText = document.createElement('p')
+            let servicesTable = document.createElement('table')
+            let servicesTableHeader = document.createElement('tr')
+            let servicesTableContent = document.createElement('tr')
+            let serviceH1 = document.createElement('th')
+            let serviceH2 = document.createElement('th')
+            let serviceH3 = document.createElement('th')
+            let clothingBoolean = document.createElement('td')
+            let cafeteriaBoolean = document.createElement('td')
+            let housingBoolean = document.createElement('td')
+
+         
     
-            container.setAttribute('id',container)
+            container.appendChild(templeHeader)
+            templeHeader.innerHTML = element.name
             container.appendChild(templeImage)
             templeImage.setAttribute('src',element.picture)
             templeImage.setAttribute('alt',element.name)
-            container.appendChild(firstButton)
-            container.appendChild(firstText)
+            container.appendChild(addressHeader)
+            container.appendChild(addressText)
+            container.appendChild(contactHeader)
+            container.appendChild(contactText)
+            container.appendChild(servicesHeader)
+
+            
+            container.appendChild(servicesBox)
+
+            addressHeader.innerHTML = "Address"
+            addressText.innerHTML = element.address;
+            contactText.innerHTML = element.telephone;
+
+            contactHeader.innerHTML = "Contact"
+            servicesHeader.innerHTML = "Services"
+            servicesBox.appendChild(servicesTable)
+            servicesTable.appendChild(servicesTableHeader)
+            servicesTable.appendChild(servicesTableContent)
+            servicesTableHeader.appendChild(serviceH1)
+            servicesTableHeader.appendChild(serviceH2)
+            servicesTableHeader.appendChild(serviceH3)
+            servicesTableContent.appendChild(clothingBoolean)
+            servicesTableContent.appendChild(cafeteriaBoolean)
+            servicesTableContent.appendChild(housingBoolean)
+
+            serviceH1.innerHTML = "Clothing Rental"
+            serviceH2.innerHTML = "Cafeteria"
+            serviceH3.innerHTML = "Patron Housing"
+            clothingBoolean.innerHTML = element.services.clothing_rental
+            cafeteriaBoolean.innerHTML = element.services.cafeteria
+            housingBoolean.innerHTML = element.services.patron_housing
+        
+
+            
+
+
 
 
 
