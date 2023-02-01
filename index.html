@@ -7,56 +7,69 @@
     <link rel="stylesheet" href="style/large.css">
     <link rel="stylesheet" href="style/medium.css">
     <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <title>Homepage</title>
 </head>
 <body id="index_body">
-    <header id="index_header">
+    <header class="website_header">
        <img src="images/temple_suites.png" alt="Temple Suites Logo">
-       <img src="images/facebook_icon.svg" alt="Facebook Logo Icon">
-       <img src="images/instagram_icon.svg" alt="Instagram Logo Icon">
+       <img src="images/facebook_icon.svg" alt="Facebook Logo Icon" class="social_media_icon">
+       <img src="images/instagram_icon.svg" alt="Instagram Logo Icon" class="social_media_icon">
        <button id="hamburger_button">
         <span class="hamburger_element"></span>
         <span class="hamburger_element"></span>
         <span class="hamburger_element"></span>
        </button> <!-- Ending div for the hamburger button-->
     </header>
-    <ul id="index_menu">
-        <li><a href="">Join</a></li>
-        <li><a href="">Products</a></li>
-        <li><a href="">Temples</a></li>
-        <li><a href="">Other</a></li>
+    <ul class="index_menu">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/temples.html">Temples</a></li>
+        <li><a href="/reservation.html">Book Now</a></li>
     </ul>
     <main id="index_main_content">
+        <div id="index_temple_information">
+            <h3>Mesa Arizona Temple</h3>
+            <img id="mesa_temple_image" src="images/mesa_temple_picture.jpg" alt="A picture of the Mesa Arizona Temple">
+            <p>The Mesa Arizona Temple </p>
+        </div>
         <div id="index_hotel_card">
             <h2>Hotel Accomodations</h2>
             <img src="images/hotel_interior.jpg" alt="Interior of a Hotel Suite">
         </div>
         <div id="index_main_card">
-            <h2>About Us</h2>
+            <h2>Services</h2>
             <p>Temple Inn and Suites is a service dedicated to helping 
                 you find the proper accomodations for each temple 
-                visit.Our locations are specifically set up to work with 
-                different temples around the world. We are accomodating towards 
-                individuals and large family events.
+                visit.<br>Our locations are specifically set up to work with 
+                different temples around the world. <br>We are accomodating towards 
+                individuals and large family events.<br>
             </p>
+            <img id="random_family_image" src="images/random_family.jpg" alt="An extended family in front of their house">
         </div>
-        <div id="index_temple_information">
-            <h2>Mesa Arizona Temple</h2>
-            <img src="images/mesa_temple_picture.jpg" alt="A picture of the Mesa Arizona Temple">
-        </div>
-        
     </main>
-    <footer>
+    <footer class="website_footer">
         <div>
         <p>&copy; 2022 Temple Inn and Suites</p>
         <p>Leo Harrison</p>
         </div>
         <div>
-        <p><span class="material-symbols-outlined">home_pin </span>
-            <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9833433,-77.0961689,18.63z/data=!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318"> Address: 4800 Montgomery Ln #300, Bethesda, MD 20814</a></p>
-
+        <p><span class="material-symbols-outlined">home_pin</span>
+            <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9833433,-77.0961689,18.63z/data=!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318"> 
+                Temple Inn and Suites Address</a></p>
+        </div>
+        <div id="weather_footer">
+            <p>Your Local Weather: </p>
+            <div id="weather_area">
+                <figure>
+                    <img src="" alt="" id="weather_icon">
+                    <figcaption id="weather_description">
+                    </figcaption>
+                </figure>
+            <p><span id="temp_span"></span>&deg;F</p>
+            </div>
         </div>
     </footer>
+    <script src="js/weather.js"></script>
 </body>
 </html>

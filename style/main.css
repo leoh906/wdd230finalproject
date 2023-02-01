@@ -1,6 +1,22 @@
-/* 
-#hamburger_button {
+@media screen and (max-width: 768px){
+    
+    #index_header {
+        background-color: antiquewhite;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    #index_header img {
+        height: 100px;
+        width: 100px;
+    }
+
+
+    #hamburger_button {
+    display: block;
     background-color: black;
+    border-color: black;
     display: hidden;
     height: 100px;
     width: 100px;
@@ -9,10 +25,12 @@
 
 .hamburger_element {
     background-color: white;
-    height: 5px;
+    height: 25px;
     width: 10px;
     border-radius: 25px;
     padding: 2px;
     margin: 2px;
-    position: absolute;
-} */
+} 
+    
+} /*Ending bracket for the media query
+

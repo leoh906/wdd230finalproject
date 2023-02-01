@@ -1,86 +1,89 @@
-@media screen and (min-width: 1024px){
-   /* Coding for the Index Page */
-    #index_header {
+@media screen and (min-width: 768px) {
+    /* Styling for the index.html page */
+    .website_header {
+        height: 10rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
         background-color: antiquewhite;
-        padding: 0px;
-        margin: 0px;
     }
-    
-    #index_header img {
-        height: 100px;
-        width: 100px;
+
+    .website_header .social_media_icon {
+        height: 2.5rem;
+        width: auto;
     }
 
     #hamburger_button {
         display: none;
     }
 
-    #index_menu {
-        list-style: none;
-        text-decoration: none;
-        display: inline;
-        position: absolute;
-        margin: -25px;
-        padding-left: 600px;
+    .index_menu {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
     }
 
-    #index_menu:visited {
+    .index_menu a {
         text-decoration: none;
-    }
-
-    #index_menu li{
-        display: inline;
     }
 
     #index_main_content {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        gap: 5px;
-        padding: 15px;
-    }
-
-    #index_hotel_card {
-        grid-column: 1/1;
-        background-color: blue;
-        grid-row: 1/2;
-        text-align: center;
-        align-items: center;
-    }
-
-    #index_hotel_card img {
-        height: 300px;
-        width: 300px;
-    }
-
-    #index_main_card {
-        grid-column: 2/4;
-        text-align: center;
-        background-color: lightblue;
-        grid-row: 1/2;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 
     #index_temple_information {
-        grid-column: 4/4;
-        background-color: aqua;
+        grid-row: 1/1;
         text-align: center;
-        align-items: center;
     }
 
-    #index_temple_information img{
-        height: 300px;
-        width: 300px;
-    }
-
-    footer {
-        display: grid;
-        background-color: blueviolet;
-        grid-template-columns: 1fr 1fr;
+    #index_hotel_card {
+        grid-row: 3/3;
         text-align: center;
-        
     }
-/* End of the index.html styling */
 
+    .index_menu li {
+        list-style: none;
+    }
 
+    #index_main_card {
+        grid-row: 2/2;
+        text-align: center;
+    }
+
+    #random_family_image {
+        height: 500px;
+        width: auto;
+    }
+
+    #mesa_temple_image {
+        height: 500px;
+        width: auto;
+    }
+.website_footer {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
     
-} /* End of the media query 
+}
+
+#weather_footer {
+    text-align: center;
+}
+  
+/*Styling for the Reservation Page */
+.form_element {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    padding: 1rem;
+}
+
+
+
+
+
+
+} /* End of media query */
