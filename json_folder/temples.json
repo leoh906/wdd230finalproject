@@ -6,7 +6,11 @@
             "address":"101 S. LeSueur Mesa,AZ 85204",
             "telephone":"(480)-833-1211",
             "email":"",
-            "services":"",
+            "services":{
+                "Clothing Rental":"",
+                "Cafeteria":"",
+                "Patron Housing":""
+            },
             "history":"",
             "ordinances":"",
             "sessions":"",
@@ -19,7 +23,11 @@
             "address":"",
             "telephone":"",
             "email":"",
-            "services":"",
+            "services":{
+                "Clothing Rental:"",
+                "Cafeteria":"",
+                "Patron Housing":"",
+            },
             "history":"",
             "ordinances":"",
             "sessions":"",
@@ -32,7 +40,11 @@
             "address":"",
             "telephone":"",
             "email":"",
-            "services":"",
+            "services":{
+                "Clothing Rental":"No",
+                "Cafeteria":"No",
+                "Patron Housing":"No"
+            },
             "history":"",
             "ordinances":"",
             "sessions":"",
@@ -46,7 +58,7 @@
             "telephone":"+1 559-437-9451",
             "email":"",
             "services": {
-            "clothing_rental":"No clothing rental available",
+            "Clothing":"No clothing rental available",
             "cafeteria":"No cafeteria available",
             "patron_housing":"No patron housing available",
             "distribution_center":"No distribution center nearby"
