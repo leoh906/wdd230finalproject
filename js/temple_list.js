@@ -1,6 +1,20 @@
-let json_temples = "json_folder/temples.json"
+let jsonURL = 'https://leoh906.github.io/wdd230finalproject/json_folder/temples.json'
 
-let templeData = JSON.parse(json_temples);
+async function getTemples(jsonURL) {
 
-console.log(templeData)
+    const response = await fetch(jsonURL);
+    console.log(response);
+
+    if(response.ok) {
+        const jsResponse = await response.json()
+        console.log(jsResponse)
+    }
+
+
+}
+
+getTemples()
+
+
+
 
