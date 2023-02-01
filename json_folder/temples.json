@@ -14,7 +14,7 @@
         },
         {
             "name":"Meridian Idaho Temple",
-            "picture":"json_folder/meridian_temple.jpg",
+            "picture":"../json_folder/meridian_temple.jpg",
             "address":"7355 N. Linder Rd. Meridian,ID 83646",
             "telephone":"(208)-957-7300",
             "services":{
@@ -26,7 +26,7 @@
         },
         {
             "name":"San Diego Temple",
-            "picture":"san_diego_temple.jpg",
+            "picture":"../json_folder/san_diego_temple.jpg",
             "address":"7474 Charmant Dr. Sand Diego,CA 92122-5000",
             "telephone":"(858)-622-0991",
             "services":{
@@ -38,7 +38,7 @@
         },
         {
             "name":"Fresno California Temple",
-            "picture":"fresno_temple.jpg",
+            "picture":"../json_folder/fresno_temple.jpg",
             "address":"6290 N. Valentine Ave Fresno,CA 93711 United States",
             "telephone":"(559)-437-9451",
             "services": {

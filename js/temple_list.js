@@ -25,6 +25,9 @@ async function getTemples(jsonURL) {
             container.setAttribute('id',container)
             container.appendChild(templeImage)
             templeImage.setAttribute('src',element.picture)
+            templeImage.setAttribute('alt',element.name)
+            container.appendChild(firstButton)
+            container.appendChild(firstText)
 
 
 
