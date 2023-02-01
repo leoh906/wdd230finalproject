@@ -19,6 +19,7 @@
 
     .index_menu {
         display: flex;
+        flex-direction: row;
         gap: 2rem;
         justify-content: center;
     }

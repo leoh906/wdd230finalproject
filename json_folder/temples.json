@@ -2,7 +2,7 @@
     "temples": [
         {
             "name":"Mesa Arizona Temple",
-            "picture":"mesa_temple_picture.jpg",
+            "picture":"../json/folder/mesa_temple_picture.jpg",
             "address":"101 S. LeSueur Mesa,AZ 85204",
             "telephone":"(480)-833-1211",
             "services":{
@@ -14,7 +14,7 @@
         },
         {
             "name":"Meridian Idaho Temple",
-            "picture":"meridian_temple.jpg",
+            "picture":"json_folder/meridian_temple.jpg",
             "address":"7355 N. Linder Rd. Meridian,ID 83646",
             "telephone":"(208)-957-7300",
             "services":{
