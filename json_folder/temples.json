@@ -2,7 +2,7 @@
     "temples": [
         {
             "name":"Mesa Arizona Temple",
-            "picture":"../json/folder/mesa_temple_picture.jpg",
+            "picture":"../json_folder/mesa_temple_picture.jpg",
             "address":"101 S. LeSueur Mesa,AZ 85204",
             "telephone":"(480)-833-1211",
             "services":{

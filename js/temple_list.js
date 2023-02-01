@@ -13,7 +13,10 @@ async function getTemples(jsonURL) {
         // To get the values of the object, use the format: templeDirectory._
 
         templeDirectory.forEach(element => {
+            let mainHeading = document.getElementById('temple_body')
             let container = document.createElement('div')
+            mainHeading.appendChild(container)
+            
             let templeImage =document.createElement('img')
             let firstText = document.createElement('p')
             let secondText = document.createElement('p')
