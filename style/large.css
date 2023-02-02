@@ -82,10 +82,14 @@
     padding: 1rem;
 }
 
-#temple_body 
+#temple_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 #temple_body img {
-    width: 25rem;
+    width: 500px;
 
 }
 
