@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px) and (min-width: 0px){
 
     body {
         padding: 0;
@@ -38,16 +38,21 @@
         
     }
 
+    #menu_container {
+        display: block;
+    }
+
+    
+
     .index_menu {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         background-color: black;
+        color: white;
         margin: 0px;
         padding: 10px;
-
-        /* align-items: center; */
         gap: 1rem;
     }
 
@@ -58,6 +63,7 @@
 
     .index_menu a:visited {
         text-decoration: none;
+        color: white;
     }
 
     #index_main_content {
@@ -65,13 +71,22 @@
     }
 
     #index_temple_information {
-        /* grid-row: 1/1; */
         text-align: center;
     }
 
     #index_hotel_card {
-        /* grid-row: 3/3; */
+        display: block;
         text-align: center;
+        margin: 5px;
+        padding: 10px;
+        
+    }
+
+    #action_button {
+        background-color: lightgreen;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
     }
 
     .index_menu li {

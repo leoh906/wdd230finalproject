@@ -1,20 +1,36 @@
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     /* Styling for the index.html page */
     .website_header {
-        height: 10rem;
+        height: 5rem;
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        gap: 50px;
         background-color: antiquewhite;
     }
 
     .website_header .social_media_icon {
-        height: 2.5rem;
+        height: 5rem;
         width: auto;
     }
 
     #hamburger_button {
-        display: none;
+        display: flex;
+        align-self: flex-end;
+        flex-direction: column;
+        justify-content:space-around;
+        background-color: black;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .hamburger_element {
+        background-color: white;
+        height: 5px;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 2.5px;
+        
     }
 
     .index_menu {
@@ -22,10 +38,19 @@
         gap: 2rem;
         justify-content: center;
         flex-direction: column;
+        background-color: black;
+        color: white;
+        margin: 0 auto;
+
     }
 
     .index_menu a {
         text-decoration: none;
+    }
+
+    .index_menu a:visited {
+        text-decoration: none;
+        color: white;
     }
 
     #index_main_content {
@@ -53,12 +78,19 @@
     }
 
     #random_family_image {
-        height: 10rem;
+        height: 20rem;
         width: auto;
     }
 
+    #action_button {
+        background-color: lightgreen;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
     #mesa_temple_image {
-        height: 10rem;
+        height: 30rem;
         width: auto;
     }
 .website_footer {

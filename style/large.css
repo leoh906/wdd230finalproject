@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     /* Styling for the index.html page */
     .website_header {
         height: 10rem;
@@ -28,6 +28,11 @@
         text-decoration: none;
     }
 
+    .index_menu a:visited {
+        text-decoration: none;
+        color: black;
+    }
+
     #index_main_content {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
@@ -41,6 +46,7 @@
     #index_hotel_card {
         grid-row: 3/3;
         text-align: center;
+        position: relative;
     }
 
     .index_menu li {
@@ -61,6 +67,22 @@
         height: 500px;
         width: auto;
     }
+
+
+
+    #action_button {
+        color: black;
+        background-color: antiquewhite;
+        padding: 10px;
+        border-radius: 10px;
+        position: absolute;
+        top: 400px;
+        left: 800px;
+   
+    }
+
+    
+
 .website_footer {
     background-color: aliceblue;
     display: flex;
@@ -93,7 +115,31 @@
 
 }
 
+table {
+    border: 2px solid black;
+}
 
+td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+th {
+    padding: 10px;
+}
+
+/* Styling for the services page */
+#services_body {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#services_body img {
+    width: auto;
+    height: 500px;
+}
 
 
 

@@ -35,6 +35,7 @@ async function getTemples(jsonURL) {
             let clothingBoolean = document.createElement('td')
             let cafeteriaBoolean = document.createElement('td')
             let housingBoolean = document.createElement('td')
+            let button = document.createElement('button')
 
          
     
@@ -48,9 +49,10 @@ async function getTemples(jsonURL) {
             container.appendChild(contactHeader)
             container.appendChild(contactText)
             container.appendChild(servicesHeader)
-
-            
+       
             container.appendChild(servicesBox)
+            container.appendChild(button)
+            button.innerHTML = "More Info";
 
             addressHeader.innerHTML = "Address"
             addressText.innerHTML = element.address;
@@ -67,7 +69,7 @@ async function getTemples(jsonURL) {
             servicesTableContent.appendChild(clothingBoolean)
             servicesTableContent.appendChild(cafeteriaBoolean)
             servicesTableContent.appendChild(housingBoolean)
-
+            // button.setAttribute('onclick',window_location_block)
             serviceH1.innerHTML = "Clothing Rental"
             serviceH2.innerHTML = "Cafeteria"
             serviceH3.innerHTML = "Patron Housing"

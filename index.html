@@ -21,11 +21,14 @@
         <span class="hamburger_element"></span>
        </button> <!-- Ending div for the hamburger button-->
     </header>
-    <ul class="index_menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="temples.html">Temples</a></li>
-        <li><a href="reservation.html">Book Now</a></li>
+    <div id="menu_container">
+        <ul class="index_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservation.html">Book Now</a></li>
+    </div>
+  
     </ul>
     <main id="index_main_content">
         <div id="index_temple_information">
@@ -37,7 +40,8 @@
         </div>
         <div id="index_hotel_card">
             <h2>Hotel Accomodations</h2>
-            <img src="images/hotel_interior.jpg" alt="Interior of a Hotel Suite">
+            <img src="images/hotel_interior.jpg" alt="Interior of a Hotel Suite"><br>
+            <button id="action_button">Book Now!</button>
         </div>
         <div id="index_main_card">
             <h2>Services</h2>
@@ -73,6 +77,6 @@
         </div>
     </footer>
     <script src="js/weather.js"></script>
-    <script src="js/temple_list.js"></script>
+    <script src="js/hamburger_button.js"></script>
 </body>
 </html>

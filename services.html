@@ -21,13 +21,27 @@
          <span class="hamburger_element"></span>
         </button> <!-- Ending div for the hamburger button-->
      </header>
-     <ul class="index_menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="temples.html">Temples</a></li>
-        <li><a href="reservation.html">Book Now</a></li>
-     </ul>
-    <h2>Available Accomodations</h2>
+     <div id="menu_container">
+        <ul class="index_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservation.html">Book Now</a></li>
+    </div>
+    <div id="services_body">
+        <h2>Available Accomodations</h2>
+        <div id="wedding_info">
+            <h3>Wedding Receptions</h3>
+            <img src="images/wedding_reception_church.jpg" alt="A wedding reception">
+        </div>
+        <div id="missionary_info">
+            <h3>Resources for Full-Time Temple Missionaries</h3>
+            <img src="images/temple_couple.jpeg" alt="">
+
+        </div>
+        
+
+    </div>
     
     <footer class="website_footer">
         <div>
@@ -52,5 +66,7 @@
         </div>
     </footer>
     <script src="js/weather.js"></script>
+    <script src="js/hamburger_button.js"></script>
+
 </body>
 </html>
