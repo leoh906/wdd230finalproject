@@ -41,11 +41,19 @@
         background-color: black;
         color: white;
         margin: 0 auto;
+        padding: 10px;
 
+    }
+
+    #missionary_info img {
+        /* padding: 25px; */
+        width: 75%;
     }
 
     .index_menu a {
         text-decoration: none;
+        display: flex;
+        justify-content: center;
     }
 
     .index_menu a:visited {
@@ -83,8 +91,8 @@
     }
 
     #action_button {
-        background-color: lightgreen;
-        color: white;
+        color: black;
+        background-color: antiquewhite;
         padding: 5px;
         border-radius: 5px;
     }
@@ -102,8 +110,27 @@
     
 }
 
+.business_address {
+    text-decoration: none;
+    color: black;
+}
+
+.business_address:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+
 #weather_footer {
     text-align: center;
+}
+
+#services_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
   
 /*Styling for the Reservation Page */
