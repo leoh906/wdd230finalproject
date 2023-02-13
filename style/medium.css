@@ -45,6 +45,14 @@
 
     }
 
+    #missionary_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+    }
+
     #missionary_info img {
         /* padding: 25px; */
         width: 75%;
@@ -92,7 +100,7 @@
 
     #action_button {
         color: black;
-        background-color: antiquewhite;
+        background-color: #43d916;
         padding: 5px;
         border-radius: 5px;
     }
@@ -131,6 +139,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
   
 /*Styling for the Reservation Page */
@@ -139,6 +148,88 @@
     flex-direction: column;
     width: 10rem;
     padding: 1rem;
+}
+
+/*Styling for the form page */
+#form_box_thing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+}
+
+#reservation_form {
+    background-color: antiquewhite;
+    padding: 25px;
+    width: 500px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    width: 250px;
+    height: 250px;
+}
+
+#form_submit {
+    background-color: #43d916;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+form input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+/*Styling for the Temple Page */
+#temple_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+#temple_body img {
+    width: 200px;
+    height: auto;
+}
+
+#temples_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+}
+
+#temples_container button {
+    margin: 5px;
+    padding: 5px;
+    background-color: #43d916;
+    border-radius: 5px;
+}
+
+table {
+    border: 2px solid black;
+    text-align: center;
+}
+
+td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+th {
+    padding: 10px;
 }
 
 

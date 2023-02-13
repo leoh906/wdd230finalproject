@@ -83,8 +83,7 @@
     }
 
     #action_button {
-        background-color: lightgreen;
-        color: white;
+        background-color: #43d916;
         padding: 5px;
         border-radius: 5px;
     }
@@ -125,6 +124,46 @@
 #weather_footer {
     text-align: center;
 }
+
+/*Styling for the Temple Page */
+#temple_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+#temple_body img {
+    width: 200px;
+    height: auto;
+}
+
+#temples_container {
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+}
+
+#temples_container button {
+    margin: 5px;
+    padding: 5px;
+    background-color: #43d916;
+    border-radius: 5px;
+}
+
+.business_address {
+    text-decoration: none;
+    color: black;
+}
+
+.business_address:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
   
 /*Styling for the Reservation Page */
 .form_element {
@@ -133,6 +172,66 @@
     width: 10rem;
     padding: 1rem;
 }
+
+/*Styling for the form page */
+#form_box_thing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+}
+
+#reservation_form {
+    background-color: antiquewhite;
+    padding: 25px;
+    width: 150px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    width: 150px;
+    height: 100px;
+}
+
+#form_submit {
+    background-color: #43d916;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+form input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+/*Styling for services body */
+#services_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+
+#services_body img {
+    height: 200px;
+    width: 200px;
+}
+
+#missionary_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+
 
 
     

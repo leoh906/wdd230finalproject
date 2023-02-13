@@ -28,44 +28,45 @@
             <li><a href="services.html">Services</a></li>
             <li><a href="temples.html">Temples</a></li>
             <li><a href="reservation.html">Book Now</a></li>
+        </ul>
     </div>
     <div id="form_box_thing">
         <h3>Reservations</h3>
         <form id="reservation_form">
             <div class="form_element">
                 <label for="location_input" class="location_style">Location:</label>
-                <input type="text" placeholder="Select Destination...">
+                <input id="location_input" type="text" placeholder="Select Destination...">
             </div>
             <div class="form_element">
-                <label for="date_input">Arrival</label>
-                <input type="date">
+                <label for="arrival_input">Arrival</label>
+                <input id="arrival_input" type="date" value="2023-03-01">
             </div>
             <div class="form_element">
-                <label for="date_input">Departure</label>
-                <input type="date"><br>
+                <label for="departure_input">Departure</label>
+                <input id="departure_input" type="date" value="2023-03-31">
             </div>
             <div class="form_element">
-                <label for="telephone_input" pattern="">Telephone</label>
-                <input type="tel">
+                <label for="telephone_input">Telephone</label>
+                <input id="telephone_input" type="tel" placeholder="123-456-7890" pattern="[0-9]{3-[0-9]{3}-[0-9]{4}">
             </div>
             <div class="form_element">
-                <label for="number_rooms" placeholder="# rooms">Rooms</label>
-                <input type="number">
+                <label for="number_rooms">Rooms</label>
+                <input id="number_rooms" type="number" min="1" max="5" placeholder="0">
             </div>
              <div class="form_element">
                 <label for="full_name">Full Name</label>
-                <input type="text">
+                <input id="full_name" type="text" placeholder="John Smith">
             </div>
             <div class="form_element">
                 <label for="email_input">Email Input</label>
-                <input type="email" name="" id="">
+                <input id="email_input" type="email" placeholder="email@example.com">
             </div>
             <div class="form_element">
                 <label for="text_area">Special Accomodations</label><br>
-                <textarea placeholder="Type any special accomodations that may be needed..."></textarea>
+                <textarea id="text_area" placeholder="Type any special accomodations that may be needed..."></textarea>
             </div>
             <div class="form_element">
-            <button type="submit">Submit</button>
+            <button id="form_submit" type="submit">Submit</button>
             </div>
             </form>
 </div> <!-- End of form box thing-->
