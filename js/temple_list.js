@@ -69,7 +69,6 @@ async function getTemples(jsonURL) {
             servicesTableContent.appendChild(clothingBoolean)
             servicesTableContent.appendChild(cafeteriaBoolean)
             servicesTableContent.appendChild(housingBoolean)
-            // button.setAttribute('onclick',window_location_block)
             serviceH1.innerHTML = "Clothing Rental"
             serviceH2.innerHTML = "Cafeteria"
             serviceH3.innerHTML = "Patron Housing"
